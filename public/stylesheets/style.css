@@ -2,6 +2,7 @@ body {
   font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
   margin:0;
   padding: 0;
+  background-color: #5f94a3;
 }
 
 a {
@@ -45,7 +46,6 @@ img{
 }
 
 #movies{
-  background-color: #5f94a3;
   width:100vw;
   height: 100vh;
   padding:1em 0 2em 0
@@ -65,8 +65,40 @@ img{
   border-radius: 0 0 1em 1em;
   width:200px;
   margin:0 auto 1em auto;
-  
+  box-shadow: 3px 10px 10px 0px rgba(0,0,0,0.5);
   font-size:.8em;
   text-align: center;
 }
 
+nav{
+  margin:1em 5em;
+  border: 1px solid black;
+  border-radius:2em;
+  padding:1em 1.5em;
+  width:fit-content;
+  background-color:white;
+  box-shadow: 3px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+#movieDetails{
+  display:flex;
+  align-items: center;
+  padding:1em;
+}
+
+#infos{
+  margin-left:3em;
+  border:1px solid black;
+  border-radius:2em;
+  padding:1em;
+  background-color:white;
+  box-shadow: 3px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+li{
+  margin-left:1em;
+}
+
+#imgDetails{
+  box-shadow: 3px 10px 10px 0px rgba(0,0,0,0.5);
+}
